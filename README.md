@@ -14,7 +14,9 @@ Add .webP support;
 
 Download Microsoft.WebpImageExtension_1.1.1221.0_neutral_~_8wekyb3d8bbwe.AppxBundle
 
-Open Powershell as Admin in the same folder as that file.
+Open Powershell as Admin in the same folder as that file ( see above .reg).
+
+First elevate this to Admin: Start-Process powershell -Verb RunAs -ArgumentList "-NoExit", "-Command cd '$PWD'"
 
 Add-AppxPackage -Path "Microsoft.UI.Xaml.2.7.appx"
 
