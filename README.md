@@ -27,3 +27,9 @@ Add-AppxPackage -Path "Microsoft.UI.Xaml.2.7.appx"
 Add-AppxPackage -Path "Microsoft.VCLibs.x64.14.00.Desktop.appx"
 Add-AppxPackage -Path "Microsoft.WebpImageExtension_1.1.1221.0_neutral_~_8wekyb3d8bbwe.AppxBundle"
 ```
+
+### Extra
+- Remove quick context menu; Open CMD/Powershell as Admin: reg.exe add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve
+- Reboot.
+
+  
