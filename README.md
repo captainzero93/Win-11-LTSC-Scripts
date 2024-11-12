@@ -16,7 +16,7 @@ Scripts for Windows 11 LTSC users to restore and enhance functionality
    - Microsoft.VCLibs.x64.14.00.Desktop.appx
    - Microsoft.WebpImageExtension_1.1.1221.0_neutral_~_8wekyb3d8bbwe.AppxBundle
 
-2. Open elevated PowerShell in the download folder:
+2. Open PowerShell in the download folder, you can use this command to open an elevated window in the same Dir;
 ```powershell
 Start-Process powershell -Verb RunAs -ArgumentList "-NoExit", "-Command cd '$PWD'"
 ```
