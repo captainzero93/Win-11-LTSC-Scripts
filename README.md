@@ -3,7 +3,7 @@ Scripts for Windows 11 LTSC users to restore and enhance functionality
 
 ## Enable Classic Photo Viewer + WebP Support
 
-### 1. Add PowerShell to Right-Click Context Menu
+### 1. Add PowerShell to Right-Click Context Menu on Windows 11 LTSC
 - Run `powershell-context-win11.reg` to add PowerShell to the right-click menu
 
 ### 2. Enable Classic Photo Viewer
