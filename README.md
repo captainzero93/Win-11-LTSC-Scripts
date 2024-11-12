@@ -8,7 +8,7 @@ Scripts for Windows 11 LTSC users to restore and enhance functionality
 
 ### 2. Enable Classic Photo Viewer
 1. Run the provided registry file to restore Windows Photo Viewer Classic
-2. Note: Windows 11 LTSC security settings prevent automatic file associations - manual association might be needed
+2. Note: Windows 11 LTSC security settings prevent automatic file associations
 
 ### 3. Add WebP Support
 1. Download required files from [EnableClassicViewer folder](https://github.com/captainzero93/Win-11-LTSC-Scripts/tree/main/EnableClassicViewer):
