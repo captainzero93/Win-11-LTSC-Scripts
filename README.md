@@ -2,6 +2,9 @@
 Scripts for aveage users who like the LTSC version but have issues
 
 ## Enable Classic Image Viewer
+Add Elevated Powershell to right click context menu Win11LTSC, run powershell-admin-context-win11.reg
+
+## Enable Classic Image Viewer
 
 .bat that will re-enable Photo Viewer Classic 
 
