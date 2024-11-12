@@ -29,7 +29,7 @@ Add-AppxPackage -Path "Microsoft.WebpImageExtension_1.1.1221.0_neutral_~_8wekyb3
 ```
 
 ### Extra
-- Remove quick context menu; Open CMD/Powershell as Admin: reg.exe add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve
+- Remove quick context menu (Powershell ); Open CMD/Powershell as Admin: reg.exe add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve
 - Reboot.
 - Remove / Reinstall Snip tool ( win + alt + s ) giving the user a choice to install a software that has automatic saving like 11 Home ( and use the same hotkey)
 
