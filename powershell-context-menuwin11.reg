@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\shell\pwsh]
+@="Open PowerShell Here"
+"Icon"="powershell.exe"
+
+[HKEY_CLASSES_ROOT\Directory\shell\pwsh\command]
+@="powershell.exe -NoExit -Command Set-Location -LiteralPath \"%V\""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\pwsh]
+@="Open PowerShell Here"
+"Icon"="powershell.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\pwsh\command]
+@="powershell.exe -NoExit -Command Set-Location -LiteralPath \"%V\""
