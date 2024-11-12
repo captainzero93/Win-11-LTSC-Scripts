@@ -1,25 +1,29 @@
 # Win-11-LTSC-Scripts
-Scripts for aveage users who like the LTSC version but have issues
+Scripts for Windows 11 LTSC users to restore and enhance functionality
 
-## Enable Classic Image Viewer + fix WebP Support
-Add  Powershell to right click context menu Win11LTSC, run powershell-context-win11.reg
+## Enable Classic Photo Viewer + WebP Support
 
-## Enable Classic Image Viewer
+### 1. Add PowerShell to Right-Click Context Menu
+- Run `powershell-context-win11.reg` to add PowerShell to the right-click menu
 
-.bat that will re-enable Photo Viewer Classic 
+### 2. Enable Classic Photo Viewer
+1. Run the provided registry file to restore Windows Photo Viewer Classic
+2. Note: Windows 11 LTSC security settings may prevent automatic file associations - manual association might be needed
 
-Due to security settings many programs will not automatically be allowed to create default associations using Windows 11 LTSC, this just makes it a bit less painless for ImageGlass ( and adds the association for Thumbnails ).
+### 3. Add WebP Support
+1. Download required files from [EnableClassicViewer folder](https://github.com/captainzero93/Win-11-LTSC-Scripts/tree/main/EnableClassicViewer):
+   - Microsoft.UI.Xaml.2.7.appx
+   - Microsoft.VCLibs.x64.14.00.Desktop.appx
+   - Microsoft.WebpImageExtension_1.1.1221.0_neutral_~_8wekyb3d8bbwe.AppxBundle
 
-Add .webP support;
+2. Open elevated PowerShell in the download folder:
+```powershell
+Start-Process powershell -Verb RunAs -ArgumentList "-NoExit", "-Command cd '$PWD'"
+```
 
-Download Microsoft.WebpImageExtension_1.1.1221.0_neutral_~_8wekyb3d8bbwe.AppxBundle
-
-Open Powershell as Admin in the same folder as that file ( see above .reg).
-
-First elevate this to Admin: Start-Process powershell -Verb RunAs -ArgumentList "-NoExit", "-Command cd '$PWD'"
-
+3. Install components in order:
+```powershell
 Add-AppxPackage -Path "Microsoft.UI.Xaml.2.7.appx"
-
-Add-AppxPackage -Path "Microsoft.VCLibs.140.00_14.0.30704.0_x64.appx"
-
-Add-AppxPackage -Path "Microsoft.WebpImageExtension_1.1.1221.0_neutral_~_8wekyb3d8bbwe.AppxBundle" 
+Add-AppxPackage -Path "Microsoft.VCLibs.x64.14.00.Desktop.appx"
+Add-AppxPackage -Path "Microsoft.WebpImageExtension_1.1.1221.0_neutral_~_8wekyb3d8bbwe.AppxBundle"
+```
