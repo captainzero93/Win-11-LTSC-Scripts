@@ -1,7 +1,7 @@
 # Win-11-LTSC-Scripts
 Scripts for aveage users who like the LTSC version but have issues
 
-## Enable Classic Image Viewer
+## Enable Classic Image Viewer + fix WebP Support
 Add  Powershell to right click context menu Win11LTSC, run powershell-context-win11.reg
 
 ## Enable Classic Image Viewer
