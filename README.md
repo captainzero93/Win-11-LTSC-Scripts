@@ -12,4 +12,4 @@ Please note you may need [GhostScript](https://ghostscript.com/releases/gsdnld.h
 
 If it still doesn't work, verify that the ImageGlass path is correct for your installation. The default is usually C:\Program Files\ImageGlass\ImageGlass.exe
 
-Due to security settings many programs will not automatically be allowed to create default associations using Windows 11 LTSC, this just makes it a bit less painless for ImageGlass
+Due to security settings many programs will not automatically be allowed to create default associations using Windows 11 LTSC, this just makes it a bit less painless for ImageGlass ( and adds the association for Thumbnails ).
