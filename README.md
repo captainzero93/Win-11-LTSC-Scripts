@@ -14,7 +14,7 @@ Add .webP support;
 
 Download Microsoft.WebpImageExtension_1.1.1221.0_neutral_~_8wekyb3d8bbwe.AppxBundle
 
-Open Powershell as Admin in the same folder ( add to context menu with this Reg file https://www.howtogeek.com/wp-content/uploads/2017/01/PowerShell-Context-Menu-Hacks.zip ) as 
+Open Powershell as Admin in the same folder as that file.
 
 Add-AppxPackage -Path "Microsoft.UI.Xaml.2.7.appx"
 
